@@ -1,7 +1,25 @@
-<!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container">
-    Weixin
-  </view>
-</scroll-view>
+<!--  做轮播图 autoplay开启自动播放 circular开启衔接滑动 indicator-dots开启面板显示点
+interval轮播时长间隔 indicator-color小点的颜色 indicator-active-color当前选中小点的颜色-->
+<view class="swiper">
+  <swiper
+  autoplay="true"
+  circular="true"
+  indicator-dots="true"
+  interval="2000"  
+  indicator-color="#33FFFF" 	
+  indicator-active-color="#FFFF00"
+  >
+    <swiper-item>
+      111
+    </swiper-item>
+    <swiper-item>
+      222
+    </swiper-item>
+    <swiper-item>
+      333
+    </swiper-item>
+    <swiper-item>
+      444
+    </swiper-item>
+  </swiper>
+</view>
