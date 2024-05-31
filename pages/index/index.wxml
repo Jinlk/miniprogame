@@ -68,3 +68,51 @@ interval轮播时长间隔 indicator-color小点的颜色 indicator-active-color
   </view>
 
  </view>
+
+  <!-- 推荐商品 -->
+  <view class="good-hot">
+  <scroll-view scroll-x class="scroll-x">
+    <view>
+      <view class="good-item">
+        <image src="/assets/images/floor.jpg" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>69.9</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/images/floor.jpg" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>79.9</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/images/floor.jpg" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>89.9</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/images/floor.jpg" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>99.9</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/images/floor.jpg" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>109.9</text>
+      </view>
+    </view>
+
+    
+    
+  </scroll-view>
+  </view>
