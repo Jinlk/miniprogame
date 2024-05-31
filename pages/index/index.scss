@@ -1,8 +1,8 @@
 page {
   height: 100vh;
-  background-color: #efefef !important; //important作用是提高权重
+  background-color: #efefef !important; // important作用是提高权重
   padding: 10rpx ;
-  box-sizing: border-box; //更改盒模型
+  box-sizing: border-box; // 更改盒模型
 
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ page {
 
 // 轮播图区域样式
 .swiper {
-  border-radius: 10rpx; //设置圆形边框大小
+  border-radius: 10rpx; // 设置圆形边框大小
   overflow: hidden; // 修饰边框（用于稳定轮播图不会变回尖角）
 
   swiper {
@@ -33,11 +33,37 @@ page {
   }
 }
 
+// 公司信息样式
 .info {
   display: flex;
-  justify-content: space-around; //平分空间
+  justify-content: space-around; // 平分空间，两边留空
   background-color: rgb(212, 55, 7);
-  padding: 16rpx; //设置组件四周边距
+  padding: 20rpx 16rpx; // 设置组件四周边距
   font-size: 23rpx;
-  border-radius: 10rpx; //设置圆形边框大小
+  border-radius: 10rpx; // 设置圆形边框大小
+}
+
+// 商品导航样式
+.good-nax {
+  display: flex;
+  justify-content: space-between; // 平分空间，两边不留空
+  padding: 20rpx 16rpx; // 设置组件四周边距
+  background-color: lightyellow;
+  border-radius: 10rpx; // 设置圆形边框大小
+
+  view {
+    display: flex;
+    flex-direction: column; // 使文字和图片垂直布局
+    align-items: center; // 控制图片和文字对齐 
+
+    image {
+      height: 80rpx;
+      width: 80rpx;
+    }
+
+    text {
+      font-size: 24rpx;
+      margin-top: 12rpx; // 控制相邻元素间隔（在同个view里面）
+    }
+  }
 }
