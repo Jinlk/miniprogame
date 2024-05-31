@@ -35,23 +35,36 @@ interval轮播时长间隔 indicator-color小点的颜色 indicator-active-color
  <!-- 商品导航 -->
  <view class="good-nax">
   <view>
-    <image src="/assets/images/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/cate-1.png" mode=""/>
+      <text>爱礼精选</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/images/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/xhmg.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
   </view>
   <view>
-    <image src="/assets/images/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/meigui.png" mode=""/>
+      <text>永生玫瑰</text>
+    </navigator>
   </view>
+
   <view>
-    <image src="/assets/images/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/zhubao.png" mode=""/>
+      <text>玫瑰珠宝</text>
+    </navigator>
   </view>
+
   <view>
-    <image src="/assets/images/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="/assets/images/xiangshui.png" mode=""/>
+      <text>香水体护</text>
+    </navigator>
   </view>
+
  </view>

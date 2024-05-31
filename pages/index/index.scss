@@ -52,9 +52,11 @@ page {
   border-radius: 10rpx; // 设置圆形边框大小
 
   view {
-    display: flex;
-    flex-direction: column; // 使文字和图片垂直布局
-    align-items: center; // 控制图片和文字对齐 
+    navigator {
+      display: flex;
+      flex-direction: column; // 使文字和图片垂直布局
+      align-items: center; // 控制图片和文字对齐 
+    }
 
     image {
       height: 80rpx;
