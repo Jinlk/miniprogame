@@ -10,16 +10,25 @@ interval轮播时长间隔 indicator-color小点的颜色 indicator-active-color
   indicator-active-color="#FFFF00"
   >
     <swiper-item>
-      111
+      <image src="/assets/images/banner.jpg" mode=""/>
     </swiper-item>
     <swiper-item>
-      222
+      <image src="/assets/images/1.jpg" mode="" show-menu-by-longpress/>
     </swiper-item>
     <swiper-item>
-      333
+      <image src="/assets/images/2.JPG" mode="" show-menu-by-longpress/>
     </swiper-item>
     <swiper-item>
-      444
+      <image src="/assets/images/3.JPG" mode="" show-menu-by-longpress/>
     </swiper-item>
   </swiper>
 </view>
+ 
+ <!-- 公司信息 -->
+ <view class="info">
+  <text user-select>同城配送</text>
+  <text user-select>行业龙头</text>
+  <text user-select>半小时送达</text>
+  <text user-select>100% 好评</text>
+ </view>
+ 
