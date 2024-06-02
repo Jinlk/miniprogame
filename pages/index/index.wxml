@@ -26,10 +26,10 @@ interval轮播时长间隔 indicator-color小点的颜色 indicator-active-color
  
  <!-- 公司信息 -->
  <view class="info">
-  <text user-select>同城配送</text>
-  <text user-select>行业龙头</text>
-  <text user-select>半小时送达</text>
-  <text user-select>100% 好评</text>
+  <text user-select><text class="iconfont icon-tcps"></text> 同城配送</text>
+  <text user-select><text class="iconfont icon-ts"></text> 行业龙头</text>
+  <text user-select><text class="iconfont icon-js"></text> 半小时送达</text>
+  <text user-select><text class="iconfont icon-hp"></text> 100% 好评</text>
  </view>
 
  <!-- 商品导航 -->
